@@ -1,8 +1,14 @@
 h1 {
     text-align: center;
     color: rgba(78, 65, 52, 0.692);
-    font-family:initial;
+    font-family:monospace;
     letter-spacing: 1px;
+    border-color: rgba(78, 65, 52, 0.692);
+    border-width: 4px;
+    border-style: dotted;
+    border-radius: 10px;
+    background-color:rgb(143, 131, 118); 
+    
 }
 
 body {
@@ -10,13 +16,53 @@ body {
 }
 
 h3 {
-   
+    color: blanchedalmond;
+    text-decoration: underline;
+    text-align: center;
+    font-family: monospace;
+    letter-spacing: 1px;
 }
 
 p1{
-    
+   color: rgb(68, 63, 57);
+   float: left;
+   font-size: 17px;
+   border-color: rgba(78, 65, 52, 0.692);
+   border-width: 3px;
+   border-style:dashed;
+   border-radius: 12px;
+   background-color:rgb(143, 131, 118); 
 }
 
 p{
+    color: blanchedalmond;
+    float: left;
+    font-family:monospace;
+}
+
+img{
+    width: 250px;
+    margin: 10px;
+    border-color: rgba(78, 65, 52, 0.692);
+    border-width: 4px;
+    border-style: dotted;
+    border-radius: 10px;
+    float: left;
+}
+h2{
     float: right;
+    color: blanchedalmond;
+}
+
+ul{
+ float: right;
+ color: rgb(68, 63, 57);
+  border-color: rgba(78, 65, 52, 0.692);
+    border-width: 4px;
+    border-style: dotted;
+    border-radius: 10px;
+    background-color: rgb(143, 131, 118);
+}
+h6{
+    text-align: left;
 }
