@@ -27,6 +27,19 @@ p{
     border-style:groove;
     border-radius: 10px;
     background-color: rgb(167, 167, 199);
+    color: rgb(68, 64, 122);
+}
+
+p1{
+    float: left;
+    border-color: rgb(130, 130, 165);
+    border-width: 5px;
+    border-style:groove;
+    border-radius: 10px;
+    background-color: rgb(167, 167, 199);
+    color: rgb(68, 64, 122); 
+    font-size: large;
+    margin: 10px;
 }
 
 body{
@@ -35,14 +48,15 @@ body{
 
 h3{
     font-family: monospace;
-    color: rgb(195, 209, 223);
+    color:rgb(68, 64, 122);
     text-align: center;
 }
 
 h2{
     font-family: monospace;
     text-align: center;
-    color: rgb(174, 187, 199);
+    color:rgb(68, 64, 122);
+    
 }
 
 ol{
@@ -53,4 +67,18 @@ ol{
     border-style:groove;
     border-radius: 10px;
     background-color: rgb(167, 167, 199);
+    color:rgb(68, 64, 122);
 } 
+
+ul{
+    list-style-type:none;
+}
+
+li1{
+   float:right;
+   margin: 5px;
+}
+
+span{
+    color: rgb(129, 49, 96);
+}
